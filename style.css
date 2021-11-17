@@ -154,6 +154,8 @@ img {
 .row {
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row;
 }
 
 .head-content {
