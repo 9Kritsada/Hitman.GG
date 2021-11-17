@@ -51,6 +51,7 @@ a.active,a:hover{
     background-color: rgba(255, 255, 255, 1);
     color: #11101d;
     transition: .5s;
+    border-radius: 100px;
 }
 .checkbtn{
   font-size: 30px;
@@ -195,6 +196,7 @@ h3{
   background-color: #ffffff;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
+  padding-bottom: 1rem;
 }
 
 @media (max-width: 960px) {
@@ -225,4 +227,32 @@ h3{
 
 .mrc-3 {
   padding-left: 2rem;
+}
+
+.btn-settingingame {
+  background-color: #11101d;;
+  border-radius: 25px;
+  width: 5rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.btn-setting {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.backpage {
+  background-color: #11101d;;
+  border-radius: 25px;
+  width: 5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.btn-back {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
