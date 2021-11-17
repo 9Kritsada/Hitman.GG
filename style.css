@@ -21,13 +21,29 @@ nav{
   height: 80px;
   width: 100%;
 }
-label.logo{
+
+label .logo{
   color: white;
   font-size: 35px;
   line-height: 80px;
-  padding: 0 100px;
+  padding: 100px;
   font-weight: bold;
 }
+
+.logo img{
+  position: absolute;
+  width: 5rem;
+  margin-left: 2rem;
+}
+
+@media (max-width: 952px){
+  .logo img{
+    position: absolute;
+    width: 5rem;
+    margin-top: -50px;
+  }
+}
+
 nav ul{
   float: right;
   margin-right: 20px;
