@@ -86,7 +86,7 @@ a.active,a:hover{
     height: 100vh;
     background-color: rgba(17, 16, 29, 0.95);
     top: 80px;
-    left: -100%;
+    right: -110%;
     text-align: center;
     transition: all .5s;
     }
@@ -107,7 +107,7 @@ a.active,a:hover{
     }
 
     #check:checked ~ ul{
-    left: 0;
+    right: -20px;
     } 
 }
 
