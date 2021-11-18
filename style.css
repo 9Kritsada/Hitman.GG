@@ -163,6 +163,17 @@ section{
     margin: auto;
     height: auto;
     margin-bottom: 2rem;
+    transition: 0.5s;
+}
+
+.conteiner-ns:hover{
+    background: #ffffff;
+    transition: 0.5s;
+}
+
+.conteiner-ns:hover h3{
+    color: #1a1a1d;
+    transition: 0.5s;
 }
 
 .conteiner-2 {
@@ -179,6 +190,12 @@ img {
     background-color: #4e4e50;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
     border-radius: 100%;
+    transition: 0.5s;
+}
+
+.img-rd:hover {
+    background-color: #ffffff;
+    transition: 0.5s;
 }
 
 .row {
@@ -301,17 +318,24 @@ h2, h3{
   width: 40%;
   padding: 1.25rem;
   background: #1a1a1d;
+  transition: 0.5s;
 }
 
 .col-name:hover{
   background: #ffffff;
-  transition: .5s;
   color: #1a1a1d;
+  transition: 0.5s;
+}
+
+.col-name h3,
+.col-name h2{
+  transition: 0.5s;
+  color: #ffffff;
 }
 
 .col-name:hover h3,
 .col-name:hover h2{
-  transition: .5s;
+  transition: 0.5s;
   color: #1a1a1d;
 }
 
@@ -323,7 +347,6 @@ h2, h3{
 .col-name {
   width: 40%;
   padding: 1.25rem;
-
 }
 .col-allstar {
   width: 60%;
