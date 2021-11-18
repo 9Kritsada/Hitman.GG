@@ -24,6 +24,7 @@ html {
 
 .bar-menu {
   max-width: 100%;
+  transition: 0.5s;
 }
 
 nav {
@@ -140,6 +141,7 @@ section {
   margin: auto;
   line-height: 1.75;
   font-size: 1em;
+  transition: 0.5s;
 }
 
 .conteiner {
@@ -476,7 +478,7 @@ footer img {
 .loader_bg{
     position: fixed;
     z-index: 999999;
-    background: #1a1a1d;;
+    background: #1a1a1d url(img/Black\ Video.gif) no-repeat center center;
     width: 100%;
     height: 100%;
 }
@@ -487,7 +489,7 @@ footer img {
     height: 150px;
     position: absolute;
     top: calc(50vh - 75px);
-    left: calc(50vw - 75px);
+    left: calc(49vw - 75px);
 }
 .loader:before, .loader:after{
     content: '';
