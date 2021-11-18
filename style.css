@@ -425,6 +425,14 @@ footer img {
 .col-footer {
   width: 50%;
   height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.col-footer p {
+  margin-top: 2rem;
 }
 
 .col-footer2 {
@@ -443,6 +451,7 @@ footer img {
   }
 }
 
+
 @media (max-width: 960px) {
   .col-footer2 {
     width: 50%;
@@ -459,8 +468,8 @@ footer img {
     width: 100%;
     margin-bottom: 3rem;
   }
-  footer img {
-    margin-right: 100%;
+  .col-footer p{
+    margin-top: 1rem;
   }
 }
 
