@@ -51,6 +51,7 @@ label .logo {
     position: absolute;
     width: 5rem;
     margin-top: -40px;
+    padding-top: 40px;
   }
 }
 
