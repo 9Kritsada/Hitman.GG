@@ -403,10 +403,12 @@ a {
 footer {
   background: #1a1a1d;
   width: 100%;
-  margin-top: 10rem;
   color: #ffffff;
+  margin-top: 30rem;
   font-size: 1rem;
   padding: 2rem;
+  clear: both;
+  min-height: calc(30vh);
 }
 
 .container-footer {
