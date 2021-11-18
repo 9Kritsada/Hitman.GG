@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 html {
-  background: #E4E9F7;
+  background-image: linear-gradient(225deg, rgba(26, 26, 29, 1) 0%, rgba(78, 78, 80, 1) 100%);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    color: #ffffff;
 }
 
 *{
@@ -17,7 +23,7 @@ html {
 }
 
 nav{
-  background: #11101d;
+  background: #1a1a1d;
   height: 80px;
   width: 100%;
 }
@@ -64,8 +70,7 @@ nav ul li a{
   text-decoration: none;
 }
 a.active,a:hover{
-    background-color: rgba(255, 255, 255, 1);
-    color: #11101d;
+    color: #6f2232;
     transition: .5s;
     border-radius: 100px;
 }
@@ -101,7 +106,7 @@ a.active,a:hover{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background-color: rgba(17, 16, 29, 0.95);
+    background-color: rgba(26, 26, 29, 0.95);
     top: 80px;
     right: -110%;
     text-align: center;
@@ -120,7 +125,7 @@ a.active,a:hover{
 
     a:hover,a.active{
     background-color: rgba(255, 255, 255, 1);
-    color: #11101d;
+    color: #1a1a1d;
     }
 
     #check:checked ~ ul{
@@ -143,7 +148,7 @@ section{
 }
 
 .conteiner {
-    background-color: #ffffff;
+    background: #1a1a1d;
     border-radius: 40px;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
     padding: 1.25rem;
@@ -152,7 +157,6 @@ section{
 }
 
 .conteiner-2 {
-    padding: 1.25rem;
     margin: auto;
     height: auto;
 }
@@ -163,7 +167,7 @@ img {
 }
 
 .img-rd {
-    background-color: #ffffff;
+    background-color: #4e4e50;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
     border-radius: 100%;
 }
@@ -191,6 +195,8 @@ img {
 .ct-item {
   margin: auto;
   text-align: center;
+  color: #c3073f;
+  text-shadow: 0px 0px 11px rgba(111, 34, 50, 1);
 }
 
 
@@ -198,8 +204,9 @@ img {
   width: 50%;
 }
 
-h3{
+h2, h3{
   margin-bottom: 1rem;
+  color:#ffffff;
 }
 
 .body-content-small{
@@ -211,8 +218,9 @@ h3{
 .body-content-small-ss{
   background-color: #ffffff;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 25px;
+  border-radius: 10px;
   padding-bottom: 1rem;
+  color: #1a1a1d;
 }
 
 @media (max-width: 960px) {
@@ -246,11 +254,12 @@ h3{
 }
 
 .btn-settingingame {
-  background-color: #11101d;;
-  border-radius: 25px;
-  width: 5rem;
+  background-color: #1a1a1d;
+  border-radius: 5px;
+  width: 6rem;
   margin: auto;
   margin-top: 1rem;
+  padding: 0.25rem;
 }
 
 .btn-setting {
@@ -260,15 +269,87 @@ h3{
 }
 
 .backpage {
-  background-color: #11101d;;
-  border-radius: 25px;
   width: 5rem;
   text-align: center;
   color: #fff;
+  font-size: 1.25rem;
 }
 
 .btn-back {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.col-allstar {
+  width: 60%;
+}
+
+.col-name {
+  width: 40%;
+  padding: 1.25rem;
+  background: #1a1a1d;
+}
+
+.col-name:hover{
+  background: #ffffff;
+  transition: .5s;
+  color: #1a1a1d;
+}
+
+.col-name:hover h3,
+.col-name:hover h2{
+  transition: .5s;
+  color: #1a1a1d;
+}
+
+.col-name h1{
+  color:#c3073f;
+  margin-bottom: 8rem;
+}
+
+.col-name {
+  width: 40%;
+  padding: 1.25rem;
+
+}
+.col-allstar {
+  width: 60%;
+}
+
+.col-name {
+  text-transform: uppercase;
+}
+
+.col-name h1{
+  color:#c3073f;
+}
+
+a {
+  text-decoration: none;
+}
+
+.head-content img{
+  width: 100%;
+}
+
+@media (max-width: 960px) {
+  .col-name {
+    width: 30%;
+  }
+  .col-allstar {
+    width: 70%;
+  }
+}
+
+@media (max-width: 840px) {
+  .col-name {
+    width: 100%;
+  }
+  .col-allstar {
+    width: 100%;
+  }
+  .col-name h1{
+    margin-bottom: 0;
+  }
 }
