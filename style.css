@@ -282,17 +282,17 @@ h3 {
 
 .btn-settingingame {
   background-color: #1a1a1d;
-  border-radius: 5px;
-  width: 6rem;
+  border-radius: 2px;
+  width: 4rem;
   margin: auto;
   margin-top: 1rem;
-  padding: 0.25rem;
 }
 
 .btn-setting {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 0.65rem;
 }
 
 .backpage {
@@ -396,11 +396,11 @@ footer {
   background: #1a1a1d;
   width: 100%;
   color: #ffffff;
-  margin-top: 30rem;
+  margin-top: 20rem;
   font-size: 1rem;
   padding: 2rem;
   clear: both;
-  min-height: calc(30vh);
+  min-height: calc(40vh);
 }
 
 .container-footer {
