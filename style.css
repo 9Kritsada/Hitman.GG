@@ -69,15 +69,14 @@ nav ul li a {
   color: white;
   font-size: 17px;
   padding: 7px 13px;
-  border-radius: 100px;
+  border-radius: 5px;
   text-transform: uppercase;
   text-decoration: none;
 }
 a.active,
 a:hover {
-  color: #6f2232;
+  color: #c3073f;
   transition: 0.5s;
-  border-radius: 100px;
 }
 .checkbtn {
   font-size: 30px;
@@ -120,8 +119,7 @@ a:hover {
 
   a:hover,
   a.active {
-    background-color: #6f2232;
-    color: #fff;
+    color: #c3073f;
   }
 
   #check:checked ~ ul {
@@ -224,6 +222,12 @@ img {
 
 .ct-item h1 {
   margin-bottom: 3rem;
+  transition: 0.1s;
+}
+
+.ct-item h1:hover{
+  color: #c3073f;
+  transition: 0.1s;
 }
 
 .img-content {
@@ -278,6 +282,7 @@ h3 {
 
 .mrc-3 {
   padding-left: 2rem;
+  text-decoration: uppercase;
 }
 
 .btn-settingingame {
@@ -391,6 +396,34 @@ a {
   color: #c3073f;
 }
 
+.member-contact {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.member-contact i {
+  padding: 0.3rem;
+}
+
+.fa-facebook-square{
+  color:  #3b5998;
+}
+
+.fa-youtube{
+  color:  #FF0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 footer {
   background: #1a1a1d;
@@ -416,12 +449,14 @@ footer h4 {
 }
 
 footer p {
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
 footer img {
   width: 6rem;
-  margin: 1em;
+  height: 6rem;
+  margin-right: 2rem;
 }
 
 .col-footer {
@@ -434,7 +469,7 @@ footer img {
 }
 
 .col-footer p {
-  margin-top: 2rem;
+  color: #c3073f;
 }
 
 .col-footer2 {
@@ -470,8 +505,9 @@ footer img {
     width: 100%;
     margin-bottom: 3rem;
   }
-  .col-footer p{
-    margin-top: 1rem;
+  .col-footer img{
+    margin-right: 100%;
+    margin-bottom: 1rem;
   }
 }
 
