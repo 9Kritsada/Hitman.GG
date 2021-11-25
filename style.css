@@ -381,14 +381,34 @@ a {
 }
 
 @media (max-width: 840px) {
-  .col-name {
-    width: 100%;
-  }
-  .col-allstar {
-    width: 100%;
-  }
   .col-name h1 {
     margin-bottom: 1.25rem;
+  }
+}
+
+@media (max-width: 688px) {
+  .col-name {
+    width: 100%;
+    background: url(img/r6_op.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity 0.2;
+  }
+  .col-allstar img{
+    display: none;
+  }
+  .col-name:hover {
+    background: url(img/r6_op.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity 0.2;
+  }
+  .col-name:hover h3,
+  .col-name:hover h2 {
+    transition: 0.5s;
+    color: #ffffff;
   }
 }
 
