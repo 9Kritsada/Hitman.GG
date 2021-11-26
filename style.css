@@ -382,7 +382,7 @@ a {
 
 @media (max-width: 840px) {
   .col-name h1 {
-    margin-bottom: 1.25rem;
+    margin-bottom: 5rem;
   }
 }
 
@@ -408,6 +408,9 @@ a {
   .col-name:hover h2 {
     transition: 0.5s;
     color: #ffffff;
+  }
+  .col-name h1 {
+    margin-bottom: 2rem;
   }
 }
 
