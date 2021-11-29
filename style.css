@@ -15,6 +15,15 @@ html {
   color: #ffffff;
 }
 
+@media (max-width: 960px) {
+  html{ background-image: linear-gradient(
+    225deg,
+    rgba(26, 26, 29, 0.95) 0%,
+    rgba(78, 78, 80, 1) 100%
+  );
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -216,6 +225,10 @@ img {
 
 .main-head-content {
   margin-bottom: 1em;
+}
+
+.bt-5 {
+  margin-bottom: 5rem;
 }
 
 .ct-item,
