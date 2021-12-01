@@ -16,11 +16,12 @@ html {
 }
 
 @media (max-width: 960px) {
-  html{ background-image: linear-gradient(
-    225deg,
-    rgba(26, 26, 29, 0.95) 0%,
-    rgba(78, 78, 80, 1) 100%
-  );
+  html {
+    background-image: linear-gradient(
+      225deg,
+      rgba(26, 26, 29, 0.95) 0%,
+      rgba(78, 78, 80, 1) 100%
+    );
   }
 }
 
@@ -216,10 +217,10 @@ img {
 
 .body-content {
   width: 50%;
-  padding: .3em 1rem;
+  padding: 0.3em 1rem;
 }
 
-.body-content h2{
+.body-content h2 {
   color: #c3073f;
 }
 
@@ -440,7 +441,7 @@ a {
     background-repeat: no-repeat;
     width: 100%;
   }
-  .col-allstar img{
+  .col-allstar img {
     display: none;
   }
   .col-name:hover {
@@ -472,24 +473,13 @@ a {
   padding: 0.3rem;
 }
 
-.fa-facebook-square{
-  color:  #3b5998;
+.fa-facebook-square {
+  color: #3b5998;
 }
 
-.fa-youtube{
-  color:  #FF0000;
+.fa-youtube {
+  color: #ff0000;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* Footer */
 footer {
@@ -556,7 +546,6 @@ footer img {
   }
 }
 
-
 @media (max-width: 960px) {
   .col-footer2 {
     width: 50%;
@@ -573,53 +562,54 @@ footer img {
     width: 100%;
     margin-bottom: 3rem;
   }
-  .col-footer img{
+  .col-footer img {
     margin-right: 100%;
     margin-bottom: 1rem;
   }
 }
 
-.loader_bg{
-    position: fixed;
-    z-index: 999999;
-    background: #1a1a1d;
-    width: 100%;
-    height: 100%;
+.loader_bg {
+  position: fixed;
+  z-index: 999999;
+  background: #1a1a1d;
+  width: 100%;
+  height: 100%;
 }
-.loader{
-    border: 0 soild transparent;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: calc(49vh - 85px);
-    left: calc(49vw - 85px);
+.loader {
+  border: 0 soild transparent;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: calc(49vh - 85px);
+  left: calc(49vw - 85px);
 }
-.loader:before, .loader:after{
-    content: '';
-    border: 1em solid #ffffff;
-    border-radius: 50%;
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: loader 2s linear infinite;
+.loader:before,
+.loader:after {
+  content: "";
+  border: 1em solid #ffffff;
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: loader 2s linear infinite;
+  opacity: 0;
+}
+.loader:before {
+  animation-delay: 0.5s;
+}
+@keyframes loader {
+  0% {
+    transform: scale(0);
     opacity: 0;
-}
-.loader:before{
-    animation-delay: .5s;
-}
-@keyframes loader{
-    0%{
-        transform: scale(0);
-        opacity: 0;
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        transform: scale(1);
-        opacity: 0;
-    }
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
 }
