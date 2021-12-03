@@ -13,6 +13,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   color: #ffffff;
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 960px) {
@@ -458,6 +459,12 @@ a {
   .col-name h1 {
     margin-bottom: 2rem;
   }
+}
+
+.events-game{
+  color: #c3073f;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
 }
 
 .date-Tour {
