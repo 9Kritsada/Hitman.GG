@@ -239,11 +239,11 @@ img {
   text-align: center;
   color: #fff;
   text-shadow: 0px 0px 11px rgba(0, 0, 0, 1);
+  transition: 0.5s;
 }
 
 .ct-item h1 {
   margin-bottom: 3rem;
-  transition: 0.1s;
 }
 
 .ct-item2 h1 {
@@ -254,7 +254,7 @@ img {
 .ct-item h1:hover,
 .ct-item2 h1:hover {
   color: #c3073f;
-  transition: 0.1s;
+  transition: 0.5s;
 }
 
 .img-content {
