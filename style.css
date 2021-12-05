@@ -221,7 +221,9 @@ img {
   padding: 0.3em 1rem;
 }
 
-.body-content h2 {
+.body-content h2,
+.bt-5 h3,
+.bt-5 h2 {
   color: #c3073f;
 }
 
@@ -231,6 +233,11 @@ img {
 
 .bt-5 {
   margin-bottom: 5rem;
+  
+}
+
+.sm-text {
+  font-size: 0.8rem;
 }
 
 .ct-item,
@@ -304,13 +311,13 @@ h3 {
 }
 
 .img-gg {
-  padding: 3rem;
+  width: 50%;
   border-radius: 20%;
-}
-
-.img-gg:hover {
-  padding: 3rem;
-  border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .img-gg2 {
@@ -437,7 +444,7 @@ a {
   .col-name {
     padding-left: 3rem;
     width: 100%;
-    background: url(img/r6_op.jpg) center center;
+    background: url(img/game_teams/r6_op.jpg) center center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -446,7 +453,7 @@ a {
     display: none;
   }
   .col-name:hover {
-    background: url(img/r6_op.jpg) center center;
+    background: url(img/game_teams/r6_op.jpg) center center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -487,6 +494,22 @@ a {
 .fa-youtube {
   color: #ff0000;
 }
+
+.spacing-text {
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  color: #c3073f;
+}
+
+.spacing-text b{
+  color: #ffffff;
+}
+
+.spacing-text p{
+  padding-bottom: 1rem;
+  text-decoration: uppercase;
+}
+
 
 /* Footer */
 footer {
