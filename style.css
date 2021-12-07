@@ -35,7 +35,7 @@ html {
 
 .bar-menu {
   max-width: 100%;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 nav {
@@ -78,7 +78,7 @@ nav ul li {
   margin: 0 5px;
 }
 nav ul li a {
-  color: white;
+  color: #ffffff;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 5px;
@@ -88,7 +88,7 @@ nav ul li a {
 a.active,
 a:hover {
   color: #c3073f;
-  transition: 0.5s;
+  transition: .5s;
 }
 .checkbtn {
   font-size: 30px;
@@ -116,7 +116,7 @@ a:hover {
     top: 80px;
     right: -110%;
     text-align: center;
-    transition: all 0.5s;
+    transition: 0.5s;
   }
 
   nav ul li {
@@ -151,7 +151,7 @@ section {
   margin: auto;
   line-height: 1.75;
   font-size: 1em;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .conteiner {
@@ -169,17 +169,17 @@ section {
   margin: auto;
   height: auto;
   margin-bottom: 2rem;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .conteiner-ns:hover {
   background: #ffffff;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .conteiner-ns:hover h3{
   color: #1a1a1d;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .conteiner-3 {
@@ -187,12 +187,12 @@ section {
   margin: auto;
   height: auto;
   margin-bottom: 2rem;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .conteiner-3:hover {
-  background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 95%, rgba(26, 26, 29, 1) 100%);
-  transition: 0.5s;
+  background-color: #ffffff;
+  transition: .5s;
 }
 
 
@@ -205,7 +205,7 @@ img {
   background-color: #1a1a1d;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 100%;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .img-rd:hover {
@@ -258,7 +258,7 @@ img {
   text-align: center;
   color: #fff;
   text-shadow: 0px 0px 11px rgba(0, 0, 0, 1);
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .ct-item h1 {
@@ -273,7 +273,7 @@ img {
 .ct-item h1:hover,
 .ct-item2 h1:hover {
   color: #c3073f;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .img-content {
@@ -284,7 +284,7 @@ h2,
 h3 {
   margin-bottom: 1rem;
   color: #ffffff;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .body-content-small {
@@ -300,7 +300,7 @@ h3 {
   padding-bottom: 1rem;
   color: #ffffff;
   line-height: 1.25rem;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .body-content-small-ss a{
@@ -313,7 +313,7 @@ h3 {
 .body-content-small-ss:hover {
   background: #ffffff;
   color: #1a1a1d;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 @media (max-width: 960px) {
@@ -381,7 +381,7 @@ h3 {
 }
 
 .backpage:hover {
-  transition: 0.5s;
+  transition: .5s;
   background: #ffffff;
 }
 
@@ -405,14 +405,13 @@ h3 {
 }
 
 .col-name:hover {
-  background: #ffffff;
   color: #1a1a1d;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .col-name h3,
 .col-name h2 {
-  transition: 0.5s;
+  transition: .5s;
   color: #ffffff;
 }
 
@@ -420,7 +419,7 @@ h3 {
 .conteiner-3:hover h2,
 .conteiner-2:hover h2,
 .conteiner-2:hover h3 {
-  transition: 0.5s;
+  transition: .5s;
   color: #1a1a1d;
 }
 
@@ -477,7 +476,7 @@ a {
   }
   .col-name:hover h3,
   .col-name:hover h2 {
-    transition: 0.5s;
+    transition: .5s;
     color: #ffffff;
   }
   .col-name h1 {
