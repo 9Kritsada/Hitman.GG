@@ -282,11 +282,26 @@ h3 {
 }
 
 .body-content-small-ss {
-  background-color: #ffffff;
-  box-shadow: 0px 0px 20px 20px rgba(78, 78, 80, 0.1);
+  background-color: #232327;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding-bottom: 1rem;
+  color: #ffffff;
+  line-height: 0.9;
+  transition: 0.5s;
+}
+
+.body-content-small-ss a{
+  color: #ffffff;
+}
+
+
+.body-content-small-ss a:hover,
+.body-content-small-ss a:active,
+.body-content-small-ss:hover {
+  background: #ffffff;
   color: #1a1a1d;
+  transition: 0.5s;
 }
 
 @media (max-width: 960px) {
@@ -327,7 +342,7 @@ h3 {
 
 .mrc-3 {
   padding-left: 2rem;
-  text-decoration: uppercase;
+  text-transform: uppercase;
 }
 
 .btn-settingingame {
@@ -370,11 +385,19 @@ h3 {
   width: 60%;
 }
 
+.bg-hw {
+  background: #1a1a1d;
+  transition: 0.5s;
+}
+
+.bg-hw:hover {
+  background: #ffffff;
+}
+
+
 .col-name {
   width: 40%;
   padding: 1.25rem;
-  background: #1a1a1d;
-  transition: 0.5s;
 }
 
 .col-name:hover {
@@ -389,8 +412,8 @@ h3 {
   color: #ffffff;
 }
 
-.col-name:hover h3,
-.col-name:hover h2 {
+.bg-hw:hover h3,
+.bg-hw:hover h2 {
   transition: 0.5s;
   color: #1a1a1d;
 }
