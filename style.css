@@ -177,12 +177,12 @@ section {
   transition: 0.5s;
 }
 
-.conteiner-ns:hover h3 {
+.conteiner-ns:hover h3{
   color: #1a1a1d;
   transition: 0.5s;
 }
 
-.conteiner-2 {
+.conteiner-3 {
   background: #1a1a1d;
   margin: auto;
   height: auto;
@@ -190,10 +190,11 @@ section {
   transition: 0.5s;
 }
 
-.conteiner-2:hover {
+.conteiner-3:hover {
   background: #ffffff;
   transition: 0.5s;
 }
+
 
 img {
   width: 100%;
@@ -414,8 +415,10 @@ h3 {
   color: #ffffff;
 }
 
-.conteiner-2:hover h3,
-.conteiner-2:hover h2 {
+.conteiner-3:hover h3,
+.conteiner-3:hover h2,
+.conteiner-2:hover h2,
+.conteiner-2:hover h3 {
   transition: 0.5s;
   color: #1a1a1d;
 }
