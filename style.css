@@ -511,6 +511,11 @@ a {
   color: #ff0000;
 }
 
+.fa-tiktok {
+  color: #ffffff;
+  font-size: 1.75rem;
+}
+
 .spacing-text {
   font-size: 1.25rem;
   letter-spacing: 0.5px;
