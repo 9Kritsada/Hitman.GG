@@ -297,20 +297,18 @@ h3 {
   background-color: #232327;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding-bottom: 1rem;
-  color: #ffffff;
   line-height: 1.25rem;
   transition: .5s;
+  padding-bottom: 1rem;
 }
 
 .body-content-small-ss a{
   color: #ffffff;
+  transition: .5s;
 }
 
-
-.body-content-small-ss a:hover,
-.body-content-small-ss a:active,
-.body-content-small-ss:hover {
+.body-content-small-ss:hover,
+.body-content-small-ss a:hover{
   background: #ffffff;
   color: #1a1a1d;
   transition: .5s;
