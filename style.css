@@ -299,7 +299,11 @@ h3 {
   border-radius: 10px;
   line-height: 1.25rem;
   transition: .5s;
-  padding-bottom: 1rem;
+}
+
+.body-content-small-ss:hover{
+  background: #ffffff;
+  transition: .5s;
 }
 
 .body-content-small-ss a{
@@ -307,9 +311,12 @@ h3 {
   transition: .5s;
 }
 
-.body-content-small-ss:hover,
+.body-content-small-ss p{
+  padding-bottom: 0.5rem;
+}
+
+
 .body-content-small-ss a:hover{
-  background: #ffffff;
   color: #1a1a1d;
   transition: .5s;
 }
