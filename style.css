@@ -299,6 +299,7 @@ h3 {
   border-radius: 10px;
   line-height: 1.25rem;
   transition: .5s;
+  align-items: stretch;
 }
 
 .body-content-small-ss:hover{
