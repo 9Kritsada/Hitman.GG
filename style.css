@@ -337,6 +337,7 @@ h3 {
   }
   .conteiner-ns {
     font-size: 0.7rem;
+    transition: 0s ease-in-out;
   }
 }
 
