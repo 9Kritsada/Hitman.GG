@@ -139,12 +139,6 @@ a:hover {
   }
 }
 
-section {
-  background: url(bg1.jpg) no-repeat;
-  background-size: cover;
-  height: calc(100vh - 80px);
-}
-
 .all-content {
   max-width: 100ch;
   padding: 3em 1em;
@@ -169,6 +163,7 @@ section {
   margin: auto;
   height: auto;
   margin-bottom: 2rem;
+  transition: max-height 0.3s;
   transition: .5s;
 }
 
@@ -221,15 +216,18 @@ img {
   flex-wrap: wrap;
   align-items: stretch;
   flex-direction: row;
+  transition: .5s;
 }
 
 .head-content {
   width: 100%;
+  transition: .5s;
 }
 
 .body-content {
   width: 50%;
   padding: 1.25rem;
+  transition: .5s;
 }
 
 .p-0 {
@@ -288,6 +286,10 @@ h3 {
   margin-bottom: 1rem;
   color: #ffffff;
   transition: .5s;
+}
+
+.eveny-info h3 {
+  color: #ffffff;
 }
 
 .body-content-small {
