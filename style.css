@@ -335,9 +335,21 @@ h3 {
   .img-content {
     width: 75%;
   }
+  .conteiner-ns {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 720px) {
+  .img-content {
+    width: 100%;
+  }
+  .conteiner-ns:hover {
+    transform: scale(1, 1);
+  }
+}
+
+@media (max-width: 624px) {
   .body-content {
     width: 100%;
   }
@@ -346,6 +358,11 @@ h3 {
   }
   .img-content {
     width: 100%;
+  }
+  .p-0 img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
   }
 }
 
