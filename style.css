@@ -342,9 +342,6 @@ h3 {
 }
 
 @media (max-width: 720px) {
-  .img-content {
-    width: 100%;
-  }
   .conteiner-ns:hover {
     transform: scale(1, 1);
   }
