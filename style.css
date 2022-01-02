@@ -106,13 +106,12 @@ a:hover {
 @media (max-width: 858px) {
   .checkbtn {
     display: block;
-  }
 
   ul {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background-color: rgba(26, 26, 29, 0.95);
+    background-color: rgba(26, 26, 29, .98);
     top: 80px;
     right: -110%;
     text-align: center;
@@ -134,9 +133,14 @@ a:hover {
     color: #c3073f;
   }
 
-  #check:checked ~ ul {
+  #check:checked ~ ul{
     right: -20px;
   }
+
+  .main-head-content{
+    margin-top: 5em;
+  }
+  
 }
 
 .all-content {
