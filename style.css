@@ -107,6 +107,10 @@ a:hover {
   .checkbtn {
     display: block;
 
+  }
+  nav {
+    position: fixed;
+  }
   ul {
     position: fixed;
     width: 100%;
