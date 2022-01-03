@@ -144,6 +144,10 @@ a:hover {
   .main-head-content{
     margin-top: 5em;
   }
+
+  .conteiner-3 .main-head-content{
+    margin-top: 0;
+  }
   
 }
 
