@@ -20,8 +20,10 @@
 </head>
 
 <body oncontextmenu="return false;">
-    <div class="loader_bg">
-        <div class="loader"></div>
+    <div id="preloader">
+        <div class="loader_bg">
+            <div class="loader"></div>
+        </div>
     </div>
     <div class="bar-menu">
         <nav>
@@ -140,9 +142,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
-        setTimeout(function () {
-            $('.loader_bg').fadeToggle();
-        }, 1500);
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function(){
+            loader.style.display = "none";    
+        })
     </script>
 </body>
 
