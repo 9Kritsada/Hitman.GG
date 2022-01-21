@@ -85,11 +85,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
-        var loader = document.getElementById("preloader");
-
-        window.addEventListener("load", function(){
-            loader.style.display = "none";    
-        })
+        setTimeout(function () {
+            $('.loader_bg').fadeToggle();
+        }, 1500);
     </script>
 
 </html>
