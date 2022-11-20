@@ -1,3 +1,3 @@
 # Hitman.GG
 
-https://krits-22.github.io/Hitman.GG/
+https://9kritsada.github.io/Hitman.GG/
